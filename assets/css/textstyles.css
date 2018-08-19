@@ -1,0 +1,19 @@
+
+/* This css file contains text formatting css */
+
+.blogpost-title{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.blogpost-sub-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: unset
+}
+
+.blogpost-inline-section-heading{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.blogpost-regular-text{
+    font-family: 'Courier New', Courier, monospace
+}

@@ -59,10 +59,11 @@
   } */
 
   .pageTitleText {
-      position: relative;
       font-family: Georgia, 'Times New Roman', Times, serif;
       z-index: 2;
-      background-position: center;
+      /* margin-left: 30%; */
+      display: inline-block;
+     /*  text-align: center; */
   }
   
   @media only screen and (max-width: 600px) {
