@@ -17,3 +17,9 @@
 .blogpost-regular-text{
     font-family: 'Courier New', Courier, monospace
 }
+
+.postimg{
+    margin:0px auto !important;
+    max-width: 500px; 
+    max-height: 600px;
+}
