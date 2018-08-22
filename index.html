@@ -242,16 +242,16 @@
 						<form action="mailto:ulrika.mellblom@goskarshamn.se" method="post" enctype="text/plain">
 							<div class="row gtr-50">
 								<div class="col-6 col-12-small">
-									<input name="name" placeholder="Namn" type="text" />
+									<input name="name" placeholder="Namn" type="text" id="nameField" />
 								</div>
 								<div class="col-6 col-12-small">
-									<input name="email" placeholder="Email" type="text" />
+									<input name="email" placeholder="Email" type="text" id="emailField" />
 								</div>
 								<div class="col-12">
-									<textarea name="message" placeholder="Meddelande" type="text"></textarea>
+									<textarea name="message" placeholder="Meddelande" type="text" id="messagefield"></textarea>
 								</div>
 								<div class="col-12">
-									<input type="submit" value="Skicka meddelande" class="form-button-submit button icon fa-envelope">
+									<input type="submit" value="Skicka meddelande" class="form-button-submit button icon fa-envelope" onclick="emptyForm()">
 								</div>
 							</div>
 						</form>
@@ -281,6 +281,19 @@
 </div>
 
 	<!-- Scripts -->
+	<script>
+		function emptyForm(){
+			var nameField = document.getElementById("nameField");
+			var emailField = document.getElementById("emailField");
+			var messagefield = document.getElementById("messagefield");
+
+			nameField.value = "Namn";
+			emailField.value = "Email";
+			messagefield.value = "Meddelande";
+		}
+		
+
+	</script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
