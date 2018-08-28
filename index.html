@@ -239,7 +239,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<section>  
-						<form action="mailto:ulrika.mellblom@oskarshamn.se" method="post" enctype="text/plain">
+						<form action="mailto:ulrika.mellblom@oskarshamn.se" method="post" enctype="text/plain" id="contactForm" name="contactForm">
 							<div class="row gtr-50">
 								<div class="col-6 col-12-small">
 									<input name="name" placeholder="Namn" type="text" id="nameField" />
@@ -251,7 +251,7 @@
 									<textarea name="message" placeholder="Meddelande" type="text" id="messagefield"></textarea>
 								</div>
 								<div class="col-12">
-									<input type="submit" value="Skicka meddelande" class="form-button-submit button icon fa-envelope" onclick="emptyForm()">
+									<input type="submit" value="Skicka meddelande" class="form-button-submit button icon fa-envelope" onclick="sumbitAndReset()">
 								</div>
 							</div>
 						</form>
@@ -282,18 +282,14 @@
 
 	<!-- Scripts -->
 	<script>
-		function emptyForm(){
-			var nameField = document.getElementById("nameField");
-			var emailField = document.getElementById("emailField");
-			var messagefield = document.getElementById("messagefield");
-
-			nameField.value = "Namn";
-			emailField.value = "Email";
-			messagefield.value = "Meddelande";
+		function sumbitAndReset(){
+			var form = document.getElementsByName('contactForm');
+			form[0].submit();
+			setTimeout(function(){ form[0].reset(); }, 1000);
+			
 		}
-		
-
 	</script>
+
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
