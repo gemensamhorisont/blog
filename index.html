@@ -5,308 +5,141 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125136452-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-125136452-1');
-</script>
-		<title>Gemensam Horisont</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/pageheader.css" />
-		<link rel="stylesheet" href="assets/css/textstyles.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-	</head>
-	<body class="homepage is-preload">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125136452-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-125136452-1');
+	</script>
+	<title>Gemensam Horisont</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/pageheader.css" />
+	<link rel="stylesheet" href="assets/css/textstyles.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd"
+	 crossorigin="anonymous">
+
+	<script> 
+		$(function () {
+			$("#sep18post").load("blogposts/2018/september18.html");
+			$("#oct18post").load("blogposts/2018/october18.html");
+		});
+	</script>
+
+</head>
+
+<body class="homepage is-preload">
 	<div id="page-wrapper">
 
-	<!-- Header -->
-	<section id="header">
-		<!-- Navigation menu -->
-		<nav id="nav">
-			<ul>
-				<li><a class="icon fa-home" href="index.html"><span>Hem</span></a></li>
-				<li>
-					<a href="#" class="icon fa-archive"><span>Tidigare Inlägg</span></a>
-					<ul>
-						<li>2018</li>
-						<li><a href="index.html#oct18">September</a></li>
-						<li><a href="index.html#sep18">Augusti</a></li>
-					</ul>
-				</li>
-				<li><a class="icon fa-edit" href="#oct18"><span>Senaste Inlägg</span></a></li>
-				<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
-			</ul>
-		</nav>
-	</section>
+		<!-- Header -->
+		<section id="header">
+			<!-- Navigation menu -->
+			<nav id="nav">
+				<ul>
+					<li><a class="icon fa-home" href="index.html"><span>Hem</span></a></li>
+					<li>
+						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
+						<ul>
+							<li>2018</li>
+							<li><a href="index.html#oct18post">September</a></li>
+							<li><a href="index.html#sep18post">Augusti</a></li>
+						</ul>
+					</li>
+					<li><a class="icon fa-edit" href="#oct18"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
+				</ul>
+			</nav>
+		</section>
 
 
-	<!-- Top Banner -->
-	<section class="jumbotron">
-		<div class="container">
-	  		<div class="row aln-center">
-				<!-- <header> -->
+		<!-- Top Banner -->
+		<section class="jumbotron">
+			<div class="container">
+				<div class="row aln-center">
+					<!-- <header> -->
 					<h1 class="pageTitleText">Gemensam Horisont</h1>
-				<!-- </header> -->
-	  		</div>
-		</div>
-  	</section>
-
-	<!-- Latest 3 posts section -->
-	<br>
-	<!-- <div class="row aln-center"><header><h2>Senaste Inläggen</h2></header></div> -->
-	<div class="row aln-center"><h2>Senaste Inläggen</h2></div>
-	<section id="features">	
-		<div class="container">
-			<div class="row aln-center">
-				<!-- latest post card 2 -->
-				<div class="card" class="col-md-3 mx-auto center-block" style="max-width: 25rem;">
-					<img class="card-img" src="images/oct18/octtopImg.jpeg" style="margin-right:10%; max-width: 300px;">
-					<div class="card-body" style="margin-right:10%">
-						<h5 class="card-title">September</h5>
-						<p class="card-text">
-							Konsten att tänka långa tankar tillsammans med barnen
-							<br>
-							<br>
-							<br>
-						</p>
-						<a href="#oct18" class="button icon fa-file" style="margin-bottom: 3%">Till Inlägget</a>
-						<br>
-					</div>
+					<!-- </header> -->
 				</div>
-				<!-- Space between -->
-				<div class="col-md-1"></div>
-				<!-- latest post card 1 -->
-				<div class="card" class="col-md-3 mx-auto center-block" style="max-width: 25rem;">
-					<img class="card-img" src="images/sep18/img1.jpg" style="margin-right:10%">
-					<div class="card-body" style="margin-right:10%">
-						<h5 class="card-title">Augusti</h5>
-						<p class="card-text">
-							Varmt välkommen tillbaka till ett nytt läsår med många möjligheter till utveckling 
-							och lärande för oss alla!
-						</p>
-						<a href="#sep18" class="button icon fa-file" style="margin-bottom: 3%">Till Inlägget</a>
-						<br>
-					</div>
-				</div>
-				
-			
 			</div>
-		</div>
-	</section>
-				
-	<hr />
+		</section>
 
-	<!-- Main Content -->
-	<section id="main">
-		<div class="container">
-			<!-- <div class="row"> -->
+		<!-- Latest 3 posts section -->
+		<br>
+		<!-- <div class="row aln-center"><header><h2>Senaste Inläggen</h2></header></div> -->
+		<div class="row aln-center">
+			<h2>Senaste Inläggen</h2>
+		</div>
+		<section id="features">
+			<div class="container">
+				<div class="row aln-center">
+					<!-- latest post card 2 -->
+					<div class="card" class="col-md-3 mx-auto center-block" style="max-width: 25rem;">
+						<img class="card-img" src="images/oct18/octtopImg.jpeg" style="margin-right:10%; max-width: 300px;">
+						<div class="card-body" style="margin-right:10%">
+							<h5 class="card-title">September</h5>
+							<p class="card-text">
+								Konsten att tänka långa tankar tillsammans med barnen
+								<br>
+								<br>
+								<br>
+							</p>
+							<a href="#oct18" class="button icon fa-file" style="margin-bottom: 3%">Till Inlägget</a>
+							<br>
+						</div>
+					</div>
+					<!-- Space between -->
+					<div class="col-md-1"></div>
+					<!-- latest post card 1 -->
+					<div class="card" class="col-md-3 mx-auto center-block" style="max-width: 25rem;">
+						<img class="card-img" src="images/sep18/img1.jpg" style="margin-right:10%">
+						<div class="card-body" style="margin-right:10%">
+							<h5 class="card-title">Augusti</h5>
+							<p class="card-text">
+								Varmt välkommen tillbaka till ett nytt läsår med många möjligheter till utveckling och lärande för oss alla!
+							</p>
+							<a href="#sep18" class="button icon fa-file" style="margin-bottom: 3%">Till Inlägget</a>
+							<br>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+		<hr />
+
+		<!-- Main Content -->
+		<section id="main">
+			<div class="container">
+				<!-- <div class="row"> -->
 
 				<!-- Content -->
-				<div id="content" class="col-md-8"> <!-- should be col-md-8 -->
-
-					<!-- Post Oct18 -->
-					<article class="box post" id="oct18">
-						<header>
-							<h2 class="blogpost-title" id="oct18" style="text-align: center">Konsten att tänka långa tankar tillsammans med barnen</h2>
-						</header>
-						<img class="image featured postimg" src="images/oct18/octtopImg.jpeg" style="max-width: 500"/>
-						<br>			
-						<div>
-							<p>
-								<i> Det är i förskolan barnen lever sin barndom</i> skriver Karin och Per Alnervik i sin bok om pedagogiskt ledarskap
-								Det är en hisnande tanke, eller hur?
-								Därför blir vår vision "ett gott liv" så viktig.
-								Hur du och jag lyckas möta barnen och varandra är grunden för en god kvalitet och ett gott liv.
-							</p>
-							<p>
-								I förskolan behöver vi hjälpa barnen att få tänka långa tankar för att få ett fördjupat och vidgat perspektiv. 
-								Jag tänker att det utforskande/ projekterande förhållningsättet därför är centralt.
-								Just nu läser jag tillsammans med förskolecheferna Per och Karin Alnerviks bok; pedagogiskt ledarskap och kollegialt lärande i förskolan. 
-								I boken definieras ett utforskande arbetssätt så här:
-								<br>
-								<br>
-								<i>
-									”Ett utforskande arbetssätt innebär att man inte vet hur arbetsresultatet kommer att bli i förväg. 
-									I ett utforskande arbetssätt innefattas ett erbjudande av en undersökande miljö och närvarande pedagoger, 
-									som ska möta barnen på olika sätt beroende på deras utveckling. I ett utforskande arbetssätt krävs också att material 
-									förbereds och att man gör pedagogisk dokumentation”.
-								</i>
-							</p>
-							<p>
-								Jaa, ord... hur blir ord en pedagogisk praktik?  Vilken historia har vi skrivit i Oskarshamns förskolor? 
-								Vad har vi varit en del av när vi tänker kring utvecklingen av våra förskolor? 
-								Nya idéer kommer och gamla läggs åt sidan, eller gör de det? Blir tidigare erfarenheter kanske mer ett filter som nya idéer tolkas utifrån?
-							</p>
-							<p>
-								Vilken skillnad blev det egentligen när vi gick ifrån att arbeta med portfolio till att försöka använda verktyget pedagogisk dokumentation 
-								(i den form som Skolverkets stödmaterial visar)?
-								<br>
-								<br>
-								Vad blev det för skillnad för barnen när vi använde portfolion för att synliggöra barns utveckling och lärande i 
-								jämförelse med när vi nu försöker att närma oss pedagogisk dokumentation?
-								<br>
-								<br>
-								Hur kunde portfolion se ut och vad i den visade utveckling och lärande?
-								Var den kanske mer på individnivå än lärandet som sker i grupp?
-								<br>
-								<br>
-								Den portfolio jag själv använde mig av grundade sig mycket på ett utvecklingsosykoligiskt perspektiv med traditionella områden som:
-								<ul>
-									<li>Jag</li>
-									<li>Min familj</li>
-									<li>Närmiljön</li>
-									<li>Utveckling social och motorisk</li>
-									<li>Mm mm... </li>
-								</ul>
-							</p>
-							<p>
-								Hand och fotavtryck som alla barn skulle göra varje år var viktigt. Varför var det viktigt? 
-								Förstås handlade det om att på något sätt visa på barnets fysiska utveckling och samtala med barnen om det.
-							</p>
-							<p>
-								Idag skulle jag nog mer säga att det är viktigt att barnens tankar får ge avtryck i verksamheten. 
-								Hur ger vi barn möjlighet att få utrymme för långa tankar så att barnens tankar ger avtryck och sätter spår i verksamheten?
-								<img class="image featured postimg" src="images/oct18/einstein.jpeg" style="max-width: 500"/>
-								Jag tror att vi behöver hjälpas åt med att förstå och också hitta verktyg som hjälper oss att få fatt i barnens tankar och erfarenheter som blir utgångspunkt för projektet som vi tillsammans fördjupar oss i.
-								Här blir pedagogisk dokumentation och gemensam reflektion central. Att jobba i power point med vecko- och månadsreflektion tror jag är ett bra sätt. 
-								Att vi också utformar miljöer och låter material flytta in som gör det möjligt för barnen att fortsätta undersöka så att pinnen som barnet 
-								(på den inledande bilden) hittar kan följa med till förskolan, kanske blir det ett projekt kring pinnens liv?
-							</p>
-							<p>
-								Jag försöker att systematiskt vara ute i verksamheten i kvalitetsdialoger för att få fatt i och kanske också stödja i arbetet med de projekt och det systematiska kvalitetsarbete som pågår. 
-								På måndag (1/10) har jag förmånen att vara på Majbackens förskola. Där ska vi tillsammans fördjupa oss kring reflektion och dokumentation, spännande!
-							</p>
-							<p>
-								Nästa måndag  (8/10) får jag vara med i Påskallaviks förskola.
-								På pedagogiska måndagen den 15/10 möter jag pedagoger på Klockarebackens 
-								förskola och vi ska fördjupa oss i digitala verktyg och att arbeta i processer tillsammans med barnen.
-								<br>
-								Att vara ute i verksamheten och möta er och barnen är alltid veckans höjdpunkt!
-							</p>
-							<br>
-							<strong>DU ÄR VIKTIG OCH DU GÖR SKILLNAD!</strong>
-							<br>
-							<p>/Ulrika Mellblom</p>
-						</div>
-					</article> <!-- End Oct18 -->
-
-					<!-- Post Sep18 -->
-					<article class="box post" id="sep18">
-						<header>
-							<h2 class="blogpost-title" id="sep18" style="text-align: center">Nytt läsår, woaw så spännande!</h2>
-						</header>
-						<!-- <img src="images/sep18/gubbar.jpg" width="500" height="600" class="img-responsive center-block"/> -->
-						<img class="image featured postimg" src="images/sep18/gubbar.jpg" style="max-width: 500"/>
-						<br>
-						<h3>
-							<strong>
-								Varmt välkommen tillbaka till ett nytt läsår med många möjligheter till utveckling och lärande för oss alla!
-							</strong>
-						</h3>
-										
-						<div>
-							<p>
-								Efter en på många sätt fantastisk sommar med sköna, varma och lata dagar, ser jag nu fram emot ett nytt läsår.
-								Det är väl samtidigt så att den torra sommaren har väckt funderingar kring miljö- och klimatfrågan.
-								Förskolan har en viktig uppgift att arbeta tillsammans med barnen för en hållbar och hoppfull framtid, eller hur?
-							</p>
-							<strong>Nu känns det fint att få välkomna nya och gamla barn och föräldrar till våra förskolor! </strong>
-							<p>
-								Det är i varje möte med barnen, föräldrarna och din kollega som en god kvalitet skapas i våra förskolor.
-						
-								Forskning är entydig i att nära pedagogiska relationer är A och O för barns utveckling och lärande. 
-								Vetenskapsrådets rapport (2015) visar att de pedagogiska relationerna mellan förskolepersonal och barn är viktigast för utveckling och lärande på kort och på lång sikt. 
-								<i>
-								”Kvaliteten i förskoleverksamheten avgörs därmed i det konkreta mötet med barnet. 
-								Förskolepersonalens förmåga att kommunicera, lyssna på barnen i en 
-								dialog och utmana deras föreställningar om ett fenomen eller lärandeobjekt är ett stöd för barnens utvidgade lärande, 
-								men också ett kännetecken på att barnen tas på allvar, vilket har samband med deras känsla av självkompetens”.
-								</i>
-								<br>
-								Du är viktig och du gör skillnad.
-							</p>
-							<strong>Att iscensätta mötesplatser</strong>
-							<p>
-								Nu när vi välkomnar barnen till våra förskolor blir de miljöer vi iscensätter avgörande för möten mellan barnen. 
-								På samma sätt är också olika material viktiga eftersom även material är aktiva agenter som på olika sätt bidrar till att skapa relationer.  
-								Jag bifogar en <a href ="https://kullerbyttanblogg.com/2014/09/23/att-koka-ner-tanken-om-den-pedagogiska-miljon/">Länk</a> till 
-								Linda Linders blogg som inspiration i arbetet med att iscensätta miljöer.
-							</p>
-							<strong>Stolt och glad</strong>
-							<p>
-								Nu har jag varit på plats i mitt uppdrag som verksamhetschef för förskolorna i snart ett år. 
-								Under året har jag varit runt i alla förskolor och jag känner mig stolt och glad över förtroendet att få vara en 
-								del av och leda förskoleområdets verksamhet. Under läsåret kommer vi att mötas i kvalitetsdialoger. 
-								Jag kommer till förskolorna och är med i verksamheten, sedan för vi samtal kring det systematiska kvalitetsarbetet. 
-								Jag ser fram emot att få ta del av den gemensamma reflektionen kring den pedagogiska dokumentationen.
-								<br>
-								<br>
-								Under en tid har jag haft förmånen att läsa varje förskolechefs analys av det arbete som pågår i våra förskolor och 
-								utifrån detta har jag försökt att beskriva och analysera förskolornas resultat och utvecklingsbehov ur ett övergripande 
-								perspektiv. Detta är ett arbete som inte så enkelt låter sig göras. Det är med stor ödmjukhet och respekt för det 
-								arbete du utför som jag tillsammans med förskolecheferna har försökt att identifiera utvecklingsområden.
-							</p>
-							<strong>Att konkretisera våra löften</strong>
-							<p>
-								Jag ser fram emot ett läsår när vi på olika sätt kommer att arbeta vidare med att konkretisera våra löften och fundera 
-								över hur vi ska leva våra löften på förskolorna. 
-								I förskolans ledningsgrupp har vi inlett detta med en gemensam löftesdag som vi kommer att fortsätta med vid 
-								förskolechefernas gemensamma uppstartsdagar den 23/8 och 24/8. Löftena kommer att ligga till grund för arbetet med 
-								gemensamma ställningstaganden kring en likvärdig förskola i kommunen.
-							</p>
-							<strong>Vi bygger nätverk för vi vill lära oss av varandra</strong>
-							<p>
-								Under hösten kommer två nätverk att vara levande. Det ena nätverket kommer att fördjupa sig kring pedagogisk 
-								dokumentation och ett projekterande arbetssätt. Om du vill vara med i detta nätverk pratar du med din förskolechef. 
-								Det andra nätverket fokuserar kring hur digitala verktyg kan göra skillnad för lärandet och hur 
-								barnen kan bli mer av producenter än konsumenter. Nätverket för digitala verktyg kommer IKT-ombuden på förskolorna att vara med i. 
-								Datum för nätverksträffarna finns inlagda i kalendariet.
-							</p>
-							<strong>Under hösten finns några olika arbetsgrupper</strong>
-							<p>
-								<ul>
-									<li>Arbetsgrupp för rekrytering</li>
-									<li>Arbetsgrupp som följer upp pedagogiska måndagar</li>
-									<li>Arbetsgrupp för utformning av ev lönekriterier</li>
-								</ul>
-							</p>
-							<strong>En gemensam horisont</strong>
-							<p>
-								Jag har under en tid funderat över hur jag på bästa sätt ska kommunicera med dig som arbetar i våra förskolor, 
-								jag har också ställt frågan till förskoleområdets samverkansgrupp och fick då tipset om att på något sätt 
-								kommunicera via en blogg. Så därför har jag nu skapat en blogg med namnet ”gemensam horisont”. 
-								Du kanske undrar över namnet, att bygga en gemensam horisont, vad kan det innebära? 
-								Jag tänker att förskoleområdets utveckling kommer att handla om att vi TILLSAMMANS får ett gemensamt 
-								perspektiv kring vilken förskola vi ska erbjuda alla barn i hela vår kommun, alltså att bygga en gemensam 
-								horisont.  
-								På bloggen kommer jag att publicera nya inlägg, det kan handla om kvalitetsdialoger från verksamheten, 
-								pedagogiska ställningstaganden eller tankar som jag hoppas kan bidra i ditt arbete tillsammans med våra barn.
-							</p>
-							<br>
-							<strong>DU ÄR VIKTIG OCH DU GÖR SKILLNAD!</strong>
-							<br>
-							<p>/Ulrika Mellblom</p>
-						</div>
-					</article> <!-- End Sep18 -->
+				<div id="content" class="col-md-8">
+					<!-- should be col-md-8 -->
 
 					<!-- Next Post goes here -->
-									
+
+					<!-- October Post -->
+					<article id="oct18post"></article>
+
+					<!-- September Post-->
+					<article id="sep18post"></article>
 				</div>
 
 				<!-- Sidebar -->
 				<div id="sidebar" class="col-md-3">
 
-				<!-- Post promotoion -->
-				<!-- <section>
+					<!-- Post promotoion -->
+					<!-- <section>
 					<ul class="divided">
 						<li>
 							<article class="box excerpt">
@@ -321,18 +154,18 @@
 					</ul>
 				</section> -->
 
-				<!-- Side Notes /Reading tips -->
-				<section>
+					<!-- Side Notes /Reading tips -->
+					<section>
 						<ul class="divided">
 							<li>
 								<article class="box highlight">
 									<header>
 										<h3>Ett litet video tips</h3>
 									</header>
-									<iframe width="250" height="250" src="https://www.youtube.com/embed/rm8TMNB-FXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	
-									<p>I den här videon pratar Alibabas grundare Jack Ma om utbildning
-										Under World Economic Forum.
+									<iframe width="250" height="250" src="https://www.youtube.com/embed/rm8TMNB-FXM" frameborder="0" allow="autoplay; encrypted-media"
+									 allowfullscreen></iframe>
+
+									<p>I den här videon pratar Alibabas grundare Jack Ma om utbildning Under World Economic Forum.
 									</p>
 									<ul class="actions">
 										<li><a href="https://www.youtube.com/watch?v=rm8TMNB-FXM" class="button icon fa-file">Till Videon</a></li>
@@ -341,67 +174,67 @@
 							</li>
 						</ul>
 					</section>
-			</div>
-		</div>
-	</section>
-
-	<!-- Footer -->
-	<section id="footer">
-		<div class="container">
-			<header>
-				<h2>Har du några frågor? Kontakta mig:</h2>
-			</header>
-			<div class="row">
-				<div class="col-md-6">
-					<section>  
-						<form action="mailto:ulrika.mellblom@oskarshamn.se" method="post" enctype="text/plain" id="contactForm" name="contactForm">
-							<div class="row gtr-50">
-								<div class="col-6 col-12-small">
-									<input name="name" placeholder="Namn" type="text" id="nameField" />
-								</div>
-								<div class="col-6 col-12-small">
-									<input name="email" placeholder="Email" type="text" id="emailField" />
-								</div>
-								<div class="col-12">
-									<textarea name="message" placeholder="Meddelande" type="text" id="messagefield"></textarea>
-								</div>
-								<div class="col-12">
-									<input type="submit" value="Skicka meddelande" class="form-button-submit button icon fa-envelope" onclick="sumbitAndReset()">
-								</div>
-							</div>
-						</form>
-					</section>
 				</div>
-				<div class="col-md-6">
-					<section>
-						<p> Har du några frågor eller funderingar kring något du läst här kontakta mig gärna!</p>
-						<div class="col-6 col-12-small">
-							<ul class="icons">
-								<!-- <li class="icon fa-linkedin">
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<header>
+					<h2>Har du några frågor? Kontakta mig:</h2>
+				</header>
+				<div class="row">
+					<div class="col-md-6">
+						<section>
+							<form action="mailto:ulrika.mellblom@oskarshamn.se" method="post" enctype="text/plain" id="contactForm" name="contactForm">
+								<div class="row gtr-50">
+									<div class="col-6 col-12-small">
+										<input name="name" placeholder="Namn" type="text" id="nameField" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input name="email" placeholder="Email" type="text" id="emailField" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Meddelande" type="text" id="messagefield"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Skicka meddelande" class="form-button-submit button icon fa-envelope" onclick="sumbitAndReset()">
+									</div>
+								</div>
+							</form>
+						</section>
+					</div>
+					<div class="col-md-6">
+						<section>
+							<p> Har du några frågor eller funderingar kring något du läst här kontakta mig gärna!</p>
+							<div class="col-6 col-12-small">
+								<ul class="icons">
+									<!-- <li class="icon fa-linkedin">
 									<a href="https://www.linkedin.com/in/ulrika-mellblom-97b076b/">Ulrika Mellblom</a>
-								</li>	 -->			
-							</ul>
-						</div>
+								</li>	 -->
+								</ul>
+							</div>
 					</div>
 					</section>
+				</div>
 			</div>
-		</div>
 	</div>
 	<div id="copyright" class="container">
 		<ul class="links">
 			<li>&copy; Ulrika Mellblom</li>
 		</ul>
 	</div>
-</section>
-</div>
+	</section>
+	</div>
 
 	<!-- Scripts -->
 	<script>
-		function sumbitAndReset(){
+		function sumbitAndReset() {
 			var form = document.getElementsByName('contactForm');
 			form[0].submit();
-			setTimeout(function(){ form[0].reset(); }, 1000);
-			
+			setTimeout(function () { form[0].reset(); }, 1000);
+
 		}
 	</script>
 
@@ -412,5 +245,6 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
