@@ -29,6 +29,7 @@
 
 	<script> 
 		$(function () {
+			$("#nov18post").load("blogposts/2018/november18.html");
 			$("#sep18post").load("blogposts/2018/september18.html");
 			$("#oct18post").load("blogposts/2018/october18.html");
 		});
@@ -49,11 +50,12 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2018</li>
+							<li><a href="index.html#nov18post">Oktober</a></li>
 							<li><a href="index.html#oct18post">September</a></li>
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#oct18"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#nov18"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -80,8 +82,23 @@
 		<section id="features">
 			<div class="container">
 				<div class="row aln-center">
+					<!-- Latest post card 3-->
+					<div class="card" style="max-width: 25rem;">
+							<img class="card-img" src="images/nov18/leaf.jpg" style="margin-right:10%; max-width: 400px; max-height: 200px;">
+							<div class="card-body" style="margin-right:10%">
+								<h5 class="card-title">Oktober</h5>
+								<p class="card-text">
+									Vad har du förundrats över idag?
+									<br>
+									<br>
+								</p>
+								<a href="#nov18" class="button icon fa-file" style="margin-bottom: 3%">Till Inlägget</a>
+								<br>
+							</div>
+						</div>
+		
 					<!-- latest post card 2 -->
-					<div class="card" class="col-md-3 mx-auto center-block" style="max-width: 25rem;">
+					<div class="card" style="max-width: 25rem; margin-left: 2px;">
 						<img class="card-img" src="images/oct18/octtopImg.jpeg" style="margin-right:10%; max-width: 300px;">
 						<div class="card-body" style="margin-right:10%">
 							<h5 class="card-title">September</h5>
@@ -95,11 +112,10 @@
 							<br>
 						</div>
 					</div>
-					<!-- Space between -->
-					<div class="col-md-1"></div>
+	
 					<!-- latest post card 1 -->
-					<div class="card" class="col-md-3 mx-auto center-block" style="max-width: 25rem;">
-						<img class="card-img" src="images/sep18/img1.jpg" style="margin-right:10%">
+					<div class="card" style="max-width: 25rem; margin-left: 3px;">
+						<img class="card-img" src="images/sep18/img1.jpg" style="margin-right:0%">
 						<div class="card-body" style="margin-right:10%">
 							<h5 class="card-title">Augusti</h5>
 							<p class="card-text">
@@ -127,6 +143,9 @@
 					<!-- should be col-md-8 -->
 
 					<!-- Next Post goes here -->
+
+					<!-- November Post -->
+					<article id="nov18post"></article>
 
 					<!-- October Post -->
 					<article id="oct18post"></article>
@@ -157,6 +176,21 @@
 					<!-- Side Notes /Reading tips -->
 					<section>
 						<ul class="divided">
+								<li>
+										<article class="box highlight">
+											<header>
+												<h3>Video: Produktiva frågor</h3>
+											</header>
+											<a href="https://urskola.se/Produkter/190468-Didaktorn-Produktiva-fragor"><img src="images/nov18/video2ur.jpg" style="max-width: 250px;"></a> 
+		
+											<p>För att bli kreativa måste vi öva på att vara just kreativa.
+											</p>
+											<ul class="actions">
+												<li><a href="https://urskola.se/Produkter/190468-Didaktorn-Produktiva-fragor" class="button icon fa-file">Till Videon</a></li>
+											</ul>
+										</article>
+									</li>
+
 							<li>
 								<article class="box highlight">
 									<header>
