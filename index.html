@@ -29,6 +29,7 @@
 
 	<script> 
 		$(function () {
+			$("#jan19post").load("blogposts/2019/januari19.html");
 			$("#dec18post").load("blogposts/2018/december18.html");
 			$("#nov18post").load("blogposts/2018/november18.html");
 			$("#sep18post").load("blogposts/2018/september18.html");
@@ -50,6 +51,8 @@
 					<li>
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
+							<li>2019</li>
+							<li><a href="index.html#jan19post">Januari</a></li>
 							<li>2018</li>
 							<li><a href="index.html#dec18post">November</a></li>
 							<li><a href="index.html#nov18post">Oktober</a></li>
@@ -86,23 +89,38 @@
 			<div class="container">
 				<div class="row aln-center">
 
+						<!-- Newest post -->
+						<div class="card" style="max-width: 20rem; margin-left: 0px;">
+								<img class="card-img" src="images/jan19/januariHands.jpg" style="margin-right:10%; max-width: 400px; max-height: 200px;">
+								<div class="card-body" style="margin-right:10%">
+									<h5 class="card-title">Januari</h5>
+									<p class="card-text">
+											Att sprida smittor – det behöver vi bli bra på!
+										<br>
+										<br>
+									</p>
+									<a href="#jan19" class="button icon fa-file" style="margin-bottom: 3%">Till Inlägget</a>
+									<br>
+								</div>
+							</div>
+
 					<!-- latest post card 1 -->
 					<div class="card" style="max-width: 20rem; margin-left: 3px;">
-						<img class="card-img" src="images/dec18/bild_december.png" style="margin-left:-15%; max-width: 280px; height: 200px;">
-						<div class="card-body" style="">
+						<img class="card-img" src="images/dec18/bild_december.png" style="margin-left:-10%; max-width: 280px; height: 200px;">
+						<div class="card-body" style="margin-left:-10%;">
 							<h5 class="card-title">November</h5>
 							<p class="card-text">
 								Läroplanen behöver passera både genom dig och mig men tillsammans!
 							</p>
 							<br>
-							<a href="#dec18" class="button icon fa-file" style="margin-bottom: 3%; max-width: 250px; ">Till Inlägget</a>
+							<a href="#dec18" class="button icon fa-file" style="margin-bottom: 3%; max-width: 250px; margin-left:0%;">Till Inlägget</a>
 							<br>
 						</div>
 					</div>
 					<br>
 
 					<!-- Latest post card 3-->
-					<div class="card" style="max-width: 25rem;">
+					<div class="card" style="max-width: 20rem;">
 							<img class="card-img" src="images/nov18/leaf.jpg" style="margin-right:10%; max-width: 400px; max-height: 200px;">
 							<div class="card-body" style="margin-right:10%">
 								<h5 class="card-title">Oktober</h5>
@@ -116,23 +134,7 @@
 						</div>
 		
 					<!-- latest post card 2 -->
-					<div class="card" style="max-width: 25rem; margin-left: 2px;">
-						<img class="card-img" src="images/oct18/octtopImg.jpeg" style="margin-right:10%; max-width: 300px;">
-						<div class="card-body" style="margin-right:10%">
-							<h5 class="card-title">September</h5>
-							<p class="card-text">
-								Konsten att tänka långa tankar tillsammans med barnen
-								<br>
-								<br>
-							</p>
-							<a href="#oct18" class="button icon fa-file" style="margin-bottom: 3%">Till Inlägget</a>
-							<br>
-						</div>
-					</div>
-	
-			
-
-
+				
 				</div>
 			</div>
 		</section>
@@ -149,6 +151,9 @@
 					<!-- should be col-md-8 -->
 
 					<!-- Next Post goes here -->
+
+					<!-- Januari 19 Post -->
+					<article id="jan19post"></article>
 
 					<!-- December Post -->
 					<article id="dec18post"></article>
