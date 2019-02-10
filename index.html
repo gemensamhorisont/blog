@@ -29,6 +29,7 @@
 
 	<script> 
 		$(function () {
+			$("#feb19post").load("blogposts/2019/februari19.html");
 			$("#jan19post").load("blogposts/2019/januari19.html");
 			$("#dec18post").load("blogposts/2018/december18.html");
 			$("#nov18post").load("blogposts/2018/november18.html");
@@ -52,6 +53,7 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2019</li>
+							<li><a href="index.html#feb19post">Februari</a></li>
 							<li><a href="index.html#jan19post">Januari</a></li>
 							<li>2018</li>
 							<li><a href="index.html#dec18post">November</a></li>
@@ -60,7 +62,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#jan19"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#feb19"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -81,221 +83,185 @@
 		<!-- Latest 3 posts section -->
 		<br>
 		<!-- <div class="row aln-center"><header><h2>Senaste Inläggen</h2></header></div> -->
-		<div class="row aln-center">
-			<h2>Senaste Inläggen</h2>
-		</div>
-
-		<section id="features">
-			<div class="container">
-				<div class="row aln-center">
-
-						<!-- Newest post -->
-						<div class="card" style="max-width: 20rem; margin-left: 0px;">
-								<img class="card-img" src="images/jan19/januariHands.jpg" style="margin-right:10%; max-width: 400px; max-height: 200px;">
-								<div class="card-body" style="margin-right:10%">
-									<h5 class="card-title">Januari</h5>
-									<p class="card-text">
-											Att sprida smittor – det behöver vi bli bra på!
-										<br>
-										<br>
-									</p>
-									<a href="#jan19" class="button icon fa-file" style="margin-bottom: 3%">Till Inlägget</a>
-									<br>
-								</div>
-							</div>
-
-					<!-- latest post card 1 -->
-					<div class="card" style="max-width: 20rem; margin-left: 3px;">
-						<img class="card-img" src="images/dec18/bild_december.png" style="margin-left:-10%; max-width: 280px; height: 200px;">
-						<div class="card-body" style="margin-left:-10%;">
-							<h5 class="card-title">November</h5>
-							<p class="card-text">
-								Läroplanen behöver passera både genom dig och mig men tillsammans!
-							</p>
-							<br>
-							<a href="#dec18" class="button icon fa-file" style="margin-bottom: 3%; max-width: 250px; margin-left:0%;">Till Inlägget</a>
-							<br>
-						</div>
-					</div>
-					<br>
-
-					<!-- Latest post card 3-->
-					<div class="card" style="max-width: 20rem;">
-							<img class="card-img" src="images/nov18/leaf.jpg" style="margin-right:10%; max-width: 400px; max-height: 200px;">
-							<div class="card-body" style="margin-right:10%">
-								<h5 class="card-title">Oktober</h5>
-								<p class="card-text">
-									Vad har du förundrats över idag?
-									<br>
-								</p>
-								<a href="#nov18" class="button icon fa-file" style="margin-bottom: 3%">Till Inlägget</a>
-								<br>
-							</div>
-						</div>
 		
-					<!-- latest post card 2 -->
-				
+
+	<!-- Latest posts cards -->
+	<section id="features">
+		<div class="container">
+			<div class="row aln-center">
+				<h2>Senaste Inläggen</h2>
+			</div>
+			<div class="row aln-center">
+				<!-- 1 -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="#feb19" class="image featured"><img src="images/feb19/trees.jpeg" alt="" style="height:300px; max-width:300px"/></a>
+						<header>
+							<h3>Februari</h3>
+						</header>
+						<p>
+							När undervisning och lärmiljö går hand i hand – vad blir nästa steg?
+						</p>
+						<a href="#feb19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
+					</section>
+				</div>
+				<!-- 2 -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="#jan19" class="image featured"><img src="images/jan19/januariHands.jpg" alt="" style="max-height:300px; max-width:300px"/></a>
+						<header>
+							<h3>Januari</h3>
+						</header>
+						<p>
+							Att sprida smittor – det behöver vi bli bra på!
+						</p>
+						<br>
+						<a href="#jan19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
+					</section>
+				</div>
+				<!-- 3 -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="#dec18" class="image featured"><img src="images/dec18/bild_december.png" alt="" style="height:300px; max-width:300px"/></a>
+						<header>
+							<h3>December</h3>
+						</header>
+						<p>
+							Läroplanen behöver passera både genom dig och mig men tillsammans!
+						</p>
+						<a href="#dec18" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
+					</section>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<hr />
 
-		<!-- Main Content -->
-		<section id="main">
-			<div class="container">
-				<!-- <div class="row"> -->
+	<!-- Main Content -->
+	<section id="main">
+		<div class="container">
+			<!-- Content -->
+			<div id="content" class="col-md-8">
+				<!-- Next Post goes here -->
+				<!-- Februari 19 -->
+				<article id="feb19post"></article>
 
-				<!-- Content -->
-				<div id="content" class="col-md-8">
-					<!-- should be col-md-8 -->
+				<!-- Januari 19 Post -->
+				<article id="jan19post"></article>
 
-					<!-- Next Post goes here -->
+				<!-- December Post -->
+				<article id="dec18post"></article>
 
-					<!-- Januari 19 Post -->
-					<article id="jan19post"></article>
+				<!-- November Post -->
+				<article id="nov18post"></article>
 
-					<!-- December Post -->
-					<article id="dec18post"></article>
+				<!-- October Post -->
+				<article id="oct18post"></article>
 
-					<!-- November Post -->
-					<article id="nov18post"></article>
+				<!-- September Post-->
+				<article id="sep18post"></article>
+			</div>
 
-					<!-- October Post -->
-					<article id="oct18post"></article>
-
-					<!-- September Post-->
-					<article id="sep18post"></article>
-				</div>
-
-				<!-- Sidebar -->
-				<div id="sidebar" class="col-md-3">
-
-					<!-- Post promotoion -->
-					<!-- <section>
+			<!-- Sidebar -->
+			<div id="sidebar" class="col-md-3">
+				<!-- Side Notes /Reading tips -->
+				<section>
 					<ul class="divided">
 						<li>
-							<article class="box excerpt">
+							<article class="box highlight">
 								<header>
-									<span class="date">July 30</span>
-										<h3><a href="#">Just another post</a></h3>
+									<h3>Video: Produktiva frågor</h3>
 								</header>
-								<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-								suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
+								<a href="https://urskola.se/Produkter/190468-Didaktorn-Produktiva-fragor"><img src="images/nov18/video2ur.jpg" style="max-width: 250px;"></a> 	
+								<p>
+									Hur får man förskolebarn att vara så pass kreativa och strukturerade så att de kan kan komma på idéer och innovationer som är användbara <br> för samhällsutvecklingen?
+								</p>
+								<p>
+									Samtal från lärarpodden. Intervju av Cecilia Caiman som forskar i didaktik vid Stockholms universitet.
+								</p>
+								<ul class="actions">
+									<li><a href="https://urskola.se/Produkter/190468-Didaktorn-Produktiva-fragor" class="button icon fa-file">Till Videon</a></li>
+								</ul>
+							</article>
+						</li>
+						<li>
+							<article class="box highlight">
+								<header>
+									<h3>Ett litet video tips</h3>
+								</header>
+								<iframe width="250" height="250" src="https://www.youtube.com/embed/rm8TMNB-FXM" frameborder="0" allow="autoplay; encrypted-media"
+									 allowfullscreen></iframe>
+								<p>
+									I den här videon pratar Alibabas grundare Jack Ma om utbildning Under World Economic Forum.
+								</p>
+								<ul class="actions">
+									<li><a href="https://www.youtube.com/watch?v=rm8TMNB-FXM" class="button icon fa-file">Till Videon</a></li>
+								</ul>
 							</article>
 						</li>
 					</ul>
-				</section> -->
-
-					<!-- Side Notes /Reading tips -->
-					<section>
-						<ul class="divided">
-								<li>
-										<article class="box highlight">
-											<header>
-												<h3>Video: Produktiva frågor</h3>
-											</header>
-											<a href="https://urskola.se/Produkter/190468-Didaktorn-Produktiva-fragor"><img src="images/nov18/video2ur.jpg" style="max-width: 250px;"></a> 
-		
-											<p>
-												Hur får man förskolebarn att vara så pass kreativa och strukturerade så att de kan kan komma på idéer och innovationer som är användbara <br> för samhällsutvecklingen?
-											</p>
-											<p>
-												Samtal från lärarpodden. Intervju av Cecilia Caiman som forskar i didaktik vid Stockholms universitet.
-											</p>
-											<ul class="actions">
-												<li><a href="https://urskola.se/Produkter/190468-Didaktorn-Produktiva-fragor" class="button icon fa-file">Till Videon</a></li>
-											</ul>
-										</article>
-									</li>
-
-							<li>
-								<article class="box highlight">
-									<header>
-										<h3>Ett litet video tips</h3>
-									</header>
-									<iframe width="250" height="250" src="https://www.youtube.com/embed/rm8TMNB-FXM" frameborder="0" allow="autoplay; encrypted-media"
-									 allowfullscreen></iframe>
-
-									<p>I den här videon pratar Alibabas grundare Jack Ma om utbildning Under World Economic Forum.
-									</p>
-									<ul class="actions">
-										<li><a href="https://www.youtube.com/watch?v=rm8TMNB-FXM" class="button icon fa-file">Till Videon</a></li>
-									</ul>
-								</article>
-							</li>
-						</ul>
-					</section>
-				</div>
+				</section>
 			</div>
-		</section>
-
-		<!-- Footer -->
-		<section id="footer">
-			<div class="container">
-				<header>
-					<h2>Har du några frågor? Kontakta mig:</h2>
-				</header>
-				<div class="row">
-					<div class="col-md-6">
-						<section>
-							<form action="mailto:ulrika.mellblom@oskarshamn.se" method="post" enctype="text/plain" id="contactForm" name="contactForm">
-								<div class="row gtr-50">
-									<div class="col-6 col-12-small">
-										<input name="name" placeholder="Namn" type="text" id="nameField" />
-									</div>
-									<div class="col-6 col-12-small">
-										<input name="email" placeholder="Email" type="text" id="emailField" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Meddelande" type="text" id="messagefield"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Skicka meddelande" class="form-button-submit button icon fa-envelope" onclick="sumbitAndReset()">
-									</div>
-								</div>
-							</form>
-						</section>
-					</div>
-					<div class="col-md-6">
-						<section>
-							<p> Har du några frågor eller funderingar kring något du läst här kontakta mig gärna!</p>
-							<div class="col-6 col-12-small">
-								<ul class="icons">
-									<!-- <li class="icon fa-linkedin">
-									<a href="https://www.linkedin.com/in/ulrika-mellblom-97b076b/">Ulrika Mellblom</a>
-								</li>	 -->
-								</ul>
-							</div>
-					</div>
-					</section>
-				</div>
-			</div>
-	</div>
-	<div id="copyright" class="container">
-		<ul class="links">
-			<li>&copy; Ulrika Mellblom</li>
-		</ul>
-	</div>
+		</div>
 	</section>
-	</div>
 
-	<!-- Scripts -->
-	<script>
-		function sumbitAndReset() {
-			var form = document.getElementsByName('contactForm');
-			form[0].submit();
-			setTimeout(function () { form[0].reset(); }, 1000);
+	<!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<header>
+				<h2>Har du några frågor? Kontakta mig:</h2>
+			</header>
+			<div class="row">
+				<div class="col-md-6">
+					<section>
+						<form action="mailto:ulrika.mellblom@oskarshamn.se" method="post" enctype="text/plain" id="contactForm" name="contactForm">
+							<div class="row gtr-50">
+								<div class="col-6 col-12-small">
+									<input name="name" placeholder="Namn" type="text" id="nameField" />
+								</div>
+								<div class="col-6 col-12-small">
+									<input name="email" placeholder="Email" type="text" id="emailField" />
+								</div>
+								<div class="col-12">
+									<textarea name="message" placeholder="Meddelande" type="text" id="messagefield"></textarea>
+								</div>
+								<div class="col-12">
+									<input type="submit" value="Skicka meddelande" class="form-button-submit button icon fa-envelope" onclick="sumbitAndReset()">
+								</div>
+							</div>
+						</form>
+					</section>
+				</div>
+				<div class="col-md-6">
+					<section>
+						<p> Har du några frågor eller funderingar kring något du läst här kontakta mig gärna!</p>
+					</section>
+				</div>		
+			</div>
+		</div>
+		<div id="copyright" class="container">
+			<ul class="links">
+				<li>&copy; Ulrika Mellblom</li>
+			</ul>
+		</div>
+	</section>
+</div> <!-- End Body Main div -->
 
-		}
-	</script>
+<!-- Scripts -->
+<script>
+	function sumbitAndReset() {
+		var form = document.getElementsByName('contactForm');
+		form[0].submit();
+		setTimeout(function () { form[0].reset(); }, 1000);
+	}
+</script>
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 
