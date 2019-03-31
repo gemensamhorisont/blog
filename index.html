@@ -29,6 +29,7 @@
 
 	<script> 
 		$(function () {
+			$("#mar19post").load("blogposts/2019/mars19.html");
 			$("#feb19post").load("blogposts/2019/februari19.html");
 			$("#jan19post").load("blogposts/2019/januari19.html");
 			$("#dec18post").load("blogposts/2018/december18.html");
@@ -53,6 +54,7 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2019</li>
+							<li><a href="index.html#mar19post">Mars</a></li>
 							<li><a href="index.html#feb19post">Februari</a></li>
 							<li><a href="index.html#jan19post">Januari</a></li>
 							<li>2018</li>
@@ -62,7 +64,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#feb19"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#mar19"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -92,6 +94,20 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
+				<!-- 3 -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="#mar19" class="image featured"><img src="images/mar19/mars19img.jpeg" alt="" style="height:300px; max-width:300px"/></a>
+						<header>
+							<h3>Mars</h3>
+						</header>
+						<p>
+							Vad kan kärlek och vänskap i staden bli?
+						</p>
+						<br>
+						<a href="#mar19" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
+					</section>
+				</div>
 				<!-- 1 -->
 				<div class="col-4 col-6-medium col-12-small">
 					<section>
@@ -119,19 +135,6 @@
 						<a href="#jan19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
 					</section>
 				</div>
-				<!-- 3 -->
-				<div class="col-4 col-6-medium col-12-small">
-					<section>
-						<a href="#dec18" class="image featured"><img src="images/dec18/bild_december.png" alt="" style="height:300px; max-width:300px"/></a>
-						<header>
-							<h3>December</h3>
-						</header>
-						<p>
-							Läroplanen behöver passera både genom dig och mig men tillsammans!
-						</p>
-						<a href="#dec18" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
-					</section>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -143,6 +146,9 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<!-- Mars 19 Post -->
+				<article id="mar19post"></article>
+
 				<!-- Februari 19 -->
 				<article id="feb19post"></article>
 
