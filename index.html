@@ -29,6 +29,7 @@
 
 	<script> 
 		$(function () {
+			$("#maj19post").load("blogposts/2019/maj19.html");
 			$("#mar19post").load("blogposts/2019/mars19.html");
 			$("#feb19post").load("blogposts/2019/februari19.html");
 			$("#jan19post").load("blogposts/2019/januari19.html");
@@ -54,6 +55,7 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2019</li>
+							<li><a href="index.html#maj19post">Juni</a></li>
 							<li><a href="index.html#mar19post">Mars</a></li>
 							<li><a href="index.html#feb19post">Februari</a></li>
 							<li><a href="index.html#jan19post">Januari</a></li>
@@ -64,7 +66,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#mar19"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#maj19"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -94,6 +96,19 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
+				<!-- 2 -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="#maj19" class="image featured"><img src="images/maj19/maj19img.PNG" alt="" style="max-height:300px; max-width:300px"/></a>
+						<header>
+							<h3>Juni</h3>
+						</header>
+						<p>
+							Kring vad har vi skapat mening tillsammans med barnen under terminen och läsåret?
+						</p>
+						<a href="#maj19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
+					</section>
+				</div>
 				<!-- 3 -->
 				<div class="col-4 col-6-medium col-12-small">
 					<section>
@@ -121,20 +136,6 @@
 						<a href="#feb19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
 					</section>
 				</div>
-				<!-- 2 -->
-				<div class="col-4 col-6-medium col-12-small">
-					<section>
-						<a href="#jan19" class="image featured"><img src="images/jan19/januariHands.jpg" alt="" style="max-height:300px; max-width:300px"/></a>
-						<header>
-							<h3>Januari</h3>
-						</header>
-						<p>
-							Att sprida smittor – det behöver vi bli bra på!
-						</p>
-						<br>
-						<a href="#jan19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
-					</section>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -146,6 +147,9 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<!-- May 19 Post-->
+				<article id="maj19post"></article>
+
 				<!-- Mars 19 Post -->
 				<article id="mar19post"></article>
 
