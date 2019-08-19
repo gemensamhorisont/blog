@@ -29,6 +29,7 @@
 
 	<script> 
 		$(function () {
+			$("#aug19post").load("blogposts/2019/augusti19.html");
 			$("#maj19post").load("blogposts/2019/maj19.html");
 			$("#mar19post").load("blogposts/2019/mars19.html");
 			$("#feb19post").load("blogposts/2019/februari19.html");
@@ -55,6 +56,7 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2019</li>
+							<li><a href="index.html#aug19post">Augusti</a></li>
 							<li><a href="index.html#maj19post">Juni</a></li>
 							<li><a href="index.html#mar19post">Mars</a></li>
 							<li><a href="index.html#feb19post">Februari</a></li>
@@ -66,7 +68,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#maj19"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#aug19post"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -96,6 +98,19 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
+					<!-- 1 -->
+					<div class="col-4 col-6-medium col-12-small">
+							<section>
+								<a href="#feb19" class="image featured"><img src="images/aug19/aug19img.png" alt="" style="height:300px; max-width:300px"/></a>
+								<header>
+									<h3>Augusti</h3>
+								</header>
+								<p>
+									Varmt välkommen till ett nytt spännande och meningsfullt läsår!
+								</p>
+								<a href="#feb19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
+							</section>
+						</div>
 				<!-- 2 -->
 				<div class="col-4 col-6-medium col-12-small">
 					<section>
@@ -123,19 +138,7 @@
 						<a href="#mar19" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
 					</section>
 				</div>
-				<!-- 1 -->
-				<div class="col-4 col-6-medium col-12-small">
-					<section>
-						<a href="#feb19" class="image featured"><img src="images/feb19/trees.jpeg" alt="" style="height:300px; max-width:300px"/></a>
-						<header>
-							<h3>Februari</h3>
-						</header>
-						<p>
-							När undervisning och lärmiljö går hand i hand – vad blir nästa steg?
-						</p>
-						<a href="#feb19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
-					</section>
-				</div>
+			
 			</div>
 		</div>
 	</section>
@@ -147,6 +150,9 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<!-- Augusti 19 Post-->
+				<article id="aug19post"></article>
+
 				<!-- May 19 Post-->
 				<article id="maj19post"></article>
 
@@ -177,6 +183,20 @@
 				<!-- Side Notes /Reading tips -->
 				<section>
 					<ul class="divided">
+						<li>
+							<article class="box highlight">
+								<header>
+									<h3>Utforskande arbetssätt kring hållbar utveckling</h3>
+								</header>
+								<iframe width="250" height="250" src="https://www.youtube.com/embed/QUxAWRuOPcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								<p>
+									Följ med till förskolan Ålstens Skogsväg där man på olika sätt arbetar utforskande kring hållbar utveckling.
+								</p>
+								<ul class="actions">
+									<li><a href="https://www.youtube.com/embed/QUxAWRuOPcQ" class="button icon fa-file">Till Videon</a></li>
+								</ul>
+							</article>
+						</li>
 						<li>
 							<article class="box highlight">
 								<header>
