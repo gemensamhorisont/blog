@@ -29,6 +29,7 @@
 
 	<script> 
 		$(function () {
+			$("#oct19post").load("blogposts/2019/oktober19.html");
 			$("#aug19post").load("blogposts/2019/augusti19.html");
 			$("#maj19post").load("blogposts/2019/maj19.html");
 			$("#mar19post").load("blogposts/2019/mars19.html");
@@ -56,6 +57,7 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2019</li>
+							<li><a href="index.html#oct19post">September</a></li>
 							<li><a href="index.html#aug19post">Augusti</a></li>
 							<li><a href="index.html#maj19post">Juni</a></li>
 							<li><a href="index.html#mar19post">Mars</a></li>
@@ -68,7 +70,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#aug19post"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#oct19post"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -98,6 +100,20 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
+				<!-- 3 -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="#oct19" class="image featured"><img src="images/oct19/image2.png" alt="" style="height:300px; max-width:300px"/></a>
+						<header>
+							<h3>September</h3>
+						</header>
+						<p>
+							Blogginlägg september
+						</p>
+						<br>
+						<a href="#oct19" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
+					</section>
+				</div>
 					<!-- 1 -->
 					<div class="col-4 col-6-medium col-12-small">
 							<section>
@@ -124,21 +140,6 @@
 						<a href="#maj19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
 					</section>
 				</div>
-				<!-- 3 -->
-				<div class="col-4 col-6-medium col-12-small">
-					<section>
-						<a href="#mar19" class="image featured"><img src="images/mar19/mars19img.jpeg" alt="" style="height:300px; max-width:300px"/></a>
-						<header>
-							<h3>Mars</h3>
-						</header>
-						<p>
-							Vad kan kärlek och vänskap i staden bli?
-						</p>
-						<br>
-						<a href="#mar19" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
-					</section>
-				</div>
-			
 			</div>
 		</div>
 	</section>
@@ -150,6 +151,9 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<!--Oktober 19-->
+				<article id="oct19post"></article>
+
 				<!-- Augusti 19 Post-->
 				<article id="aug19post"></article>
 
