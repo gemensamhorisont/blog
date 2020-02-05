@@ -30,6 +30,7 @@
 
 	<script> 
 		$(function () {
+			$("#feb20post").load("blogposts/2020/februari20.html");
 			$("#dec19post").load("blogposts/2019/december19.html");
 			$("#nov19post").load("blogposts/2019/november19.html");
 			$("#oct19post").load("blogposts/2019/oktober19.html");
@@ -59,6 +60,8 @@
 					<li>
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
+							<li>2020</li>
+							<li><a href="index.html#feb20post">Februari</a></li>
 							<li>2019</li>
 							<li><a href="index.html#dec19post">December</a></li>
 							<li><a href="index.html#nov19post">November</a></li>
@@ -75,7 +78,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#dec19post"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#feb20post"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -105,7 +108,19 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
-			
+				<!-- 3 -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="#feb20" class="image featured"><img src="images/feb20/feb20_img.png" alt="" style="height:300px; max-width:300px"/></a>
+						<header>
+							<h3>Februari</h3>
+						</header>
+						<p>
+							Vem blir du i mötet med mig och vem blir jag i mötet med dig?
+						</p>
+						<a href="#feb20" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
+					</section>
+			</div>
 				<!-- 1 -->
 				<div class="col-4 col-6-medium col-12-small">
 						<section>
@@ -134,20 +149,6 @@
 							<a href="#nov19" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
 						</section>
 					</div>
-				<!-- 3 -->
-				<div class="col-4 col-6-medium col-12-small">
-					<section>
-						<a href="#oct19" class="image featured"><img src="images/oct19/image2.png" alt="" style="height:300px; max-width:300px"/></a>
-						<header>
-							<h3>September</h3>
-						</header>
-						<p>
-							Blogginlägg september
-						</p>
-						<br>
-						<a href="#oct19" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
-					</section>
-			</div>
 		</div>
 	</section>
 
@@ -160,6 +161,9 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<!--Februari 20-->
+				<article id="feb20post"></article>
+
 				<!--December 19-->
 				<article id="dec19post"></article>
 
