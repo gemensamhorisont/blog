@@ -30,6 +30,7 @@
 
 	<script> 
 		$(function () {
+			$("#sep20post").load("blogposts/2020/september20.html");
 			$("#june20post").load("blogposts/2020/june20.html");
 			$("#may20post").load("blogposts/2020/may20.html");
 			$("#mar20post").load("blogposts/2020/mars20.html");
@@ -64,6 +65,7 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2020</li>
+							<li><a href="index.html#sep20post">September</a></li>
 							<li><a href="index.html#june20post">Juni</a></li>
 							<li><a href="index.html#may20post">Maj</a></li>
 							<li><a href="index.html#mar20post">Mars</a></li>
@@ -84,7 +86,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#june20post"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#sep20post"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -114,6 +116,20 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
+						<!-- 2 -->
+						<div class="col-4 col-6-medium col-12-small">
+							<section>
+								<a href="#sep20" class="image featured"><img src="images/sep20/image_sept20.png" alt="" style="max-height:300px; max-width:300px"/></a>
+								<header>
+									<h3>September</h3>
+								</header>
+								<p>
+									Att GÖRA välkommen!
+								</p>
+								<br>
+								<a href="#sep20" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
+							</section>
+						</div>
 					<!-- 3 -->
 					<div class="col-4 col-6-medium col-12-small">
 						<section>
@@ -141,20 +157,7 @@
 						<a href="#may20" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
 					</section>
 				</div>
-					<!-- 2 -->
-					<div class="col-4 col-6-medium col-12-small">
-						<section>
-							<a href="#mar20" class="image featured"><img src="images/mar20/mar20_img.jpeg" alt="" style="max-height:300px; max-width:300px"/></a>
-							<header>
-								<h3>Mars</h3>
-							</header>
-							<p>
-								Hållbar och hoppfull framtid!
-							</p>
-							<br>
-							<a href="#mar20" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
-						</section>
-					</div>
+			
 		</div>
 	</section>
 
@@ -167,6 +170,8 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<!-- September 20 -->
+				<article id="sep20post"></article>
 				<!-- June 20 -->
 				<article id="june20post"></article>
 				<!-- Maj 20 -->
