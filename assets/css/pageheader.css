@@ -1,9 +1,10 @@
   .jumbotron {
     align-items: center;
     display: flex;
-    background-image: url('../../images/topBanner2.jpg');
-    background-size: cover;
-    height: 450px;
+    background-image: url('../../images/bannernew21.jpg');
+    /*background-size: cover;*/
+    /*height: 450px;*/
+    background-size:100% 100%;
     color: white;
     height: 50vh;
   }
