@@ -30,6 +30,7 @@
 
 	<script> 
 		$(function () {
+			$("#mar21post").load("blogposts/2021/mars21.html");
 			$("#feb21post").load("blogposts/2021/februari21.html");
 			$("#nov20post").load("blogposts/2020/november20.html");
 			$("#sep20post").load("blogposts/2020/september20.html");
@@ -67,6 +68,7 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2021</li>
+							<li><a href="index.html#mar21post">Mars</a></li>
 							<li><a href="index.html#feb21post">Februari</a></li>
 							<li>2020</li>
 							<li><a href="index.html#nov20post">November</a></li>
@@ -91,7 +93,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#feb21post"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#mar21post"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -121,6 +123,20 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
+						<!-- 2 -->
+						<div class="col-4 col-6-medium col-12-small">
+							<section>
+								<a href="#mar21" class="image featured"><img src="images/mar21/mars21img.png" alt="" style="max-height:300px; max-width:300px"/></a>
+								<header>
+									<h3>Mars</h3>
+								</header>
+								<p>
+									Blogginlägg mars 2021
+								</p>
+								<br>
+								<a href="#mar20" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
+							</section>
+						</div>
 						<!-- 3 -->
 						<div class="col-4 col-6-medium col-12-small">
 							<section>
@@ -148,23 +164,7 @@
 							<a href="#nov20" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
 						</section>
 					</div>
-						<!-- 2 -->
-						<div class="col-4 col-6-medium col-12-small">
-							<section>
-								<a href="#sep20" class="image featured"><img src="images/sep20/image_sept20.png" alt="" style="max-height:300px; max-width:300px"/></a>
-								<header>
-									<h3>September</h3>
-								</header>
-								<p>
-									Att GÖRA välkommen!
-								</p>
-								<br>
-								<a href="#sep20" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
-							</section>
-						</div>
-			
-			
-			
+				
 		</div>
 	</section>
 
@@ -177,6 +177,8 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<!-- Mars 21 -->
+				<article id="mar21post"></article>
 				<!-- February 21 -->
 				<article id="feb21post"></article>
 				<!-- November 20 -->
@@ -229,11 +231,24 @@
 				<article id="sep18post"></article>
 			</div>
 
+			
+
 			<!-- Sidebar -->
 			<div id="sidebar" class="col-md-3">
 				<!-- Side Notes /Reading tips -->
 				<section>
 					<ul class="divided">
+						<li>				
+							<article class="box highlight">
+								<header>
+									<h3>Pedagogiska relationer</h3>
+								</header>
+								<iframe title="Pedagogiska relationer" width="250" height="150" src="https://embed.ur.se/embed/202199?cid=a3egv-8m6dxb" frameborder="0" allowfullscreen></iframe>
+								<ul class="actions">
+									<li><a href="https://urplay.se/program/202199-ur-samtiden-forskolesummit-2017-pedagogiska-relationer" class="button icon fa-file">Till Videon</a></li>
+								</ul>
+							</article>						
+						</li>
 						<li>				
 							<article class="box highlight">
 								<header>
