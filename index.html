@@ -30,6 +30,7 @@
 
 	<script> 
 		$(function () {
+			$("#oct21post").load("blogposts/2021/okt21.html");
 			$("#sept21post").load("blogposts/2021/sept21.html");
 			$("#june21post").load("blogposts/2021/june21.html");
 			$("#may21post").load("blogposts/2021/may21.html");
@@ -71,6 +72,7 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2021</li>
+							<li><a href="index.html#oct21post">Oktober</a></li>
 							<li><a href="index.html#sept21post">September</a></li>
 							<li><a href="index.html#june21post">Juni</a></li>
 							<li><a href="index.html#may21post">Maj</a></li>
@@ -99,7 +101,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#sept21post"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#oct21post"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -129,6 +131,20 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
+					<!-- 1 -->
+					<div class="col-4 col-6-medium col-12-small">
+						<section>
+							<a href="#oct21" class="image featured"><img src="images/okt21/outdoors.jpeg" alt="" style="height:300px; max-width:300px"/></a>
+							<header>
+								<h3>Oktober</h3>
+							</header>
+							<p>
+								Blogginlägg Oktober 2021
+							</p>
+							<br>
+							<a href="#oct21" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
+						</section>
+					</div>
 				<!-- 2 -->
 				<div class="col-4 col-6-medium col-12-small">
 					<section>
@@ -156,22 +172,7 @@
 						<br>
 						<a href="#june21" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
 					</section>
-				</div>
-						<!-- 1 -->
-						<div class="col-4 col-6-medium col-12-small">
-							<section>
-								<a href="#may21" class="image featured"><img src="images/may21/img_in_text_may21.png" alt="" style="height:300px; max-width:300px"/></a>
-								<header>
-									<h3>Maj</h3>
-								</header>
-								<p>
-									Blogginlägg maj 2021
-								</p>
-								<br>
-								<a href="#may21" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
-							</section>
-						</div>
-						
+				</div>	
 		</div>
 	</section>
 
@@ -184,6 +185,7 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<article id="oct21post"></article>
 				<article id="sept21post"></article>
 				<!-- June 21 -->
 				<article id="june21post"></article>
