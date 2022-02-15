@@ -28,8 +28,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd"
 	 crossorigin="anonymous">
 
-	<script> 
+	<script>
 		$(function () {
+			$("#feb22post").load("blogposts/2022/februari22.html");
 			$("#dec21post").load("blogposts/2021/december21.html");
 			$("#oct21post").load("blogposts/2021/okt21.html");
 			$("#sept21post").load("blogposts/2021/sept21.html");
@@ -72,6 +73,8 @@
 					<li>
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
+							<li>2022</li>
+							<li><a href="index.html#feb22post">Februari</a></li>
 							<li>2021</li>
 							<li><a href="index.html#dec21post">December</a></li>
 							<li><a href="index.html#oct21post">Oktober</a></li>
@@ -103,7 +106,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#dec21post"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#feb22post"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -133,6 +136,20 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
+				<!-- 2 -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="#feb22" class="image featured"><img src="images/feb22/feb22first.png" alt="" style="height: 300px; max-height:300px; max-width:300px"/></a>
+						<header>
+							<h3>Februari</h3>
+						</header>
+						<p>
+							Blogginlägg Februari 2022
+						</p>
+						<br>
+						<a href="#feb22" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
+					</section>
+				</div>
 				<!-- 3 -->
 				<div class="col-4 col-6-medium col-12-small">
 					<section>
@@ -161,20 +178,6 @@
 							<a href="#oct21" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
 						</section>
 					</div>
-				<!-- 2 -->
-				<div class="col-4 col-6-medium col-12-small">
-					<section>
-						<a href="#sep21" class="image featured"><img src="images/sep21/tillsammans.png" alt="" style="max-height:300px; max-width:300px"/></a>
-						<header>
-							<h3>September</h3>
-						</header>
-						<p>
-							Blogginlägg September 2021
-						</p>
-						<br>
-						<a href="#sep21" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
-					</section>
-				</div>
 		</div>
 	</section>
 
@@ -187,6 +190,7 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<article id="feb22post"></article>
 				<article id="dec21post"></article>
 				<article id="oct21post"></article>
 				<article id="sept21post"></article>
