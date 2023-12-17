@@ -30,6 +30,7 @@
 
 	<script>
 		$(function () {
+			$("#dec23post").load("blogposts/2023/December23.html");
 			$("#june23post").load("blogposts/2023/juni2023.html");
 			$("#mars23post").load("blogposts/2023/mars23.html");
 			$("#jan23post").load("blogposts/2023/january23.html");
@@ -80,6 +81,7 @@
 						<a class="icon fa-archive"><span>Tidigare Inlägg</span></a>
 						<ul>
 							<li>2023</li>
+							<li><a href="index.html#dec23post">December</a></li>
 							<li><a href="index.html#june23post">Juni</a></li>
 							<li><a href="index.html#mars23post">Mars</a></li>
 							<li><a href="index.html#jan23post">Januari</a></li>
@@ -119,7 +121,7 @@
 							<li><a href="index.html#sep18post">Augusti</a></li>
 						</ul>
 					</li>
-					<li><a class="icon fa-edit" href="#june23post"><span>Senaste Inlägg</span></a></li>
+					<li><a class="icon fa-edit" href="#dec23post"><span>Senaste Inlägg</span></a></li>
 					<li><a class="icon fa-user" href="about.html"><span>Om</span></a></li>
 				</ul>
 			</nav>
@@ -149,6 +151,20 @@
 				<h2>Senaste Inläggen</h2>
 			</div>
 			<div class="row aln-center">
+				<!-- 1 -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="#dec23" class="image featured"><img src="images/dec23/leftimage.png" alt="" style="height:300px; max-width:300px"/></a>
+						<header>
+							<h3>December</h3>
+						</header>
+						<p>
+							Blogginlägg December 2023
+						</p>
+						<br>
+						<a href="#dec23" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
+					</section>
+				</div>	
 				<!-- 2 -->
 				<div class="col-4 col-6-medium col-12-small">
 					<section>
@@ -177,20 +193,6 @@
 						<a href="#mars23" class="button icon fa-file" style="margin-left: 0%;">Till Inlägget</a>
 					</section>
 				</div>
-				<!-- 1 -->
-				<div class="col-4 col-6-medium col-12-small">
-					<section>
-						<a href="#jan23" class="image featured"><img src="images/jan23/jan23_img.png" alt="" style="height:300px; max-width:300px"/></a>
-						<header>
-							<h3>Januari</h3>
-						</header>
-						<p>
-							Blogginlägg Januari 2023
-						</p>
-						<br>
-						<a href="#jan23" class="button icon fa-file" style="margin-bottom: 0%">Till Inlägget</a>
-					</section>
-				</div>	
 		</div>
 	</section>
 
@@ -203,6 +205,7 @@
 			<!-- Content -->
 			<div id="content" class="col-md-8">
 				<!-- Next Post goes here -->
+				<article id="dec23post"></article>
 				<article id="june23post"></article>
 				<article id="mars23post"></article>
 				<article id="jan23post"></article>
